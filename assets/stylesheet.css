@@ -1,0 +1,76 @@
+:root {
+    --dark: rgb(54, 73, 24) ;
+    --light: white ;
+}
+header {
+    background-color: var(--dark);
+}
+
+header::after {
+    content: ' ';
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-left: 0;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+nav {
+    display: flex;
+}
+
+body {
+    margin: 0;
+    background-color: var(--light) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
+.nav {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: whitesmoke;
+    flex-direction: row;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 25px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.footer-logo {
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    align-content: center;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+footer {
+    background-color: var(--dark);
+}
+
+#text1 {
+    align-content: center;
+    color: var(--light)
+}

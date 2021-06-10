@@ -1,39 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/stylesheet.css">
-    <title>Portfolio Page</title>
+    <title>Shelby Butt Portfolio</title>
+ <link rel="stylesheet" href="assets/stylesheet.css">
+ <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+    </style>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,500&display=swap');
+    </style>
+    
 </head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/images/logolight.png" alt="logo">
+        </div>
 
-<header>
-    <div class="container">
-        <img src=assets/images/logolight.png alt="logo" class="logo">
-
-        <nav>
-            <ul>
-                <li class="nav">portfolio<a href="#"></a></li>
-                <li class="nav">about me<a href="#"></a></li>
-                <li class="nav">contact<a href="#"></a></li>
+    
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#profile" class="nav__link">Profile</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Portfolio</a></li>
             </ul>
         </nav>
-    </div>
-</header>
-<body>
-    <aside class="aside"></aside>
-
+    </header>
     
+ <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            introducing <strong>Shelby Butt</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">future web designer or something</p>
+        <img src="assets/images/photo.jpeg" alt="photo of shelby smiling" class="intro__img">
+
+    </section>
+
+    <!-- About Me -->
+    <section class="my--profile" id="profile">
+        <img src="assets/images/aboutme.png" class="section__title section__title--profile">
+        <div class="services">
+            <div class="service">
+                <h3></h3>
+                <p>This page is the portfolio of Shelby Butt, future web designer (maybe??). I am a 23 year old hairstylist from Richmond, Virginia.</p>
+            </div> <!--end service -->
+
+            <div class="service">
+                <h3 ></h3>
+                <p>When I am not working or studying, I prefer to spend my time either with my two cats, Tantor and Kelso, or spending time outside.</p>
+            </div> <!--end service -->
+
+            <div class="service">
+                <h3 ></h3>
+                <p> I decide to continue my education, which led me to this coding intensive. Enjoy the page!</p>
+            </div> <!--end service -->
+        
+            
+        </div> <!-- end services-->
+
+        <a href="#work" class="btn">see my work</a>
+    </section>
+   
+    <!-- contact -->
+    <section class="contact" id="contact">
+        
+        <img src="assets/images/contact.png" alt="contact" class="contact__img">
+
+        <h2 class="section__title section__title--contact">how to contact me</h2>
+        <p class="section__subtitle section__subtitle--contact">
+            <li class="contact-list">shelbylb97@comcast.net</li>
+            <li class="contact-list"><a href="https://github.com/shelbylb97">Github</a></li>
+        </p>
+
+        <div class="contact__body">
+            <p></p>
+        </div>
+
+    </section>
+
+    <!-- my work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title-work">my work</h2>
+        <p class="section__subtitle section__subtitle--work"></p>
+
+        <div class="portfolio">
+            <!-- portfolio item 01-->
+            <a href="https://shelbylb97.github.io/homework1" class="portfolio__item">
+                <img src="assets/images/portfolioimg1.png" alt="refactory" class="portfolio__img">
+            </a>
+                   
+                <!-- portfolio item 01-->
+            <a href="#" class="portfolio__item">
+                <img src="assets/images/portfolioimg2.png" alt="prework" class="portfolio__img">
+            </a>
+                  
+                <!-- portfolio item 01-->
+            <a href="#" class="portfolio__item">
+                <img src="assets/images/portfolioimg3.png" alt="example" class="portfolio__img">
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <h3 class="footer-text">Made By</h3>
+        <img src="assets/images/logo2lt.png" alt="shelby butt" class="footer-logo">
+
+    </footer>
+
 </body>
-
-<footer class="footer">
-    <div id="text1">
-        made by
-    </div>
-    
-    <img src="assets/images/logo2dk.png" alt="shelby butt" class="footer-logo">
-</footer>
-
 </html>
